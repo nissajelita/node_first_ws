@@ -2,7 +2,7 @@
   "name": "node_first_ws",
   "version": "1.0.0",
   "description": "first web service api which build with nodejs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "postgres": "^3.4.3"
   }
 }
